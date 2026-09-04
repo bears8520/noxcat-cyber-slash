@@ -1,0 +1,116 @@
+{
+  "logos": {
+    "noxcat": {
+      "url": "https://agent8-games.verse8.io/0x0ae533b8084bd01f01df7917c07ddcca1b73653f/chat-uploads/84382dc5-43ea-4f.png",
+      "description": "NOXCAT lime cat icon and wordmark for in-game branding",
+      "metadata": { "type": "game-logo", "source": "user-attachment" }
+    }
+  },
+  "backgrounds": {
+    "cyberpunkCity": {
+      "url": "https://agent8-games.verse8.io/0x0ae533b8084bd01f01df7917c07ddcca1b73653f/mcp-uploads/static-assets/variation-other-1788498550803-0.png",
+      "description": "Rainy neon cyberpunk city rooftop with a holographic energy platform",
+      "metadata": { "type": "game-background", "source": "user-reference-variation" }
+    }
+  },
+  "spritesheets": {
+    "catSword": {
+      "url": "https://agent8-games.verse8.io/0x0ae533b8084bd01f01df7917c07ddcca1b73653f/mcp-uploads/static-assets/spritesheet-variation-1788497762919.png",
+      "description": "User-provided NOXCAT design transformed into a 4x4 sword-chopping animation sheet",
+      "metadata": {
+        "type": "character-spritesheet",
+        "source": "user-attachment",
+        "gridRows": 4,
+        "gridCols": 4,
+        "animations": {
+          "idle": { "start": 0, "end": 3 },
+          "prepare": { "start": 4, "end": 7 },
+          "swing": { "start": 8, "end": 11 },
+          "recover": { "start": 12, "end": 15 }
+        }
+      }
+    },
+    "catArmorSword": {
+      "url": "https://agent8-games.verse8.io/0x0ae533b8084bd01f01df7917c07ddcca1b73653f/mcp-uploads/static-assets/spritesheet-variation-1788501844260.png",
+      "description": "White armored alternate NOXCAT with pearl cyber armor and the same 4x4 sword-chopping animations",
+      "metadata": {
+        "type": "character-spritesheet",
+        "source": "catArmorSword-variation",
+        "gridRows": 4,
+        "gridCols": 4,
+        "animations": {
+          "idle": { "start": 0, "end": 3 },
+          "prepare": { "start": 4, "end": 7 },
+          "swing": { "start": 8, "end": 11 },
+          "recover": { "start": 12, "end": 15 }
+        }
+      }
+    },
+    "catTacticalSword": {
+      "url": "https://agent8-games.verse8.io/0x0ae533b8084bd01f01df7917c07ddcca1b73653f/mcp-uploads/static-assets/spritesheet-variation-1788502259364.png",
+      "description": "Bright white NOXCAT Tactical with tactical vest, knee pads, tablet, and 4x4 sword-chopping animations",
+      "metadata": {
+        "type": "character-spritesheet",
+        "source": "catSword-variation",
+        "gridRows": 4,
+        "gridCols": 4,
+        "animations": {
+          "idle": { "start": 0, "end": 3 },
+          "prepare": { "start": 4, "end": 7 },
+          "swing": { "start": 8, "end": 11 },
+          "recover": { "start": 12, "end": 15 }
+        }
+      }
+    },
+    "catHackerSword": {
+      "url": "https://agent8-games.verse8.io/0x0ae533b8084bd01f01df7917c07ddcca1b73653f/mcp-uploads/static-assets/spritesheet-variation-1788502236356.png",
+      "description": "Bright white NOXCAT Hacker with tech jacket, futuristic shoes, holographic projector, cable, and 4x4 sword-chopping animations",
+      "metadata": {
+        "type": "character-spritesheet",
+        "source": "catSword-variation",
+        "gridRows": 4,
+        "gridCols": 4,
+        "animations": {
+          "idle": { "start": 0, "end": 3 },
+          "prepare": { "start": 4, "end": 7 },
+          "swing": { "start": 8, "end": 11 },
+          "recover": { "start": 12, "end": 15 }
+        }
+      }
+    }
+  },
+  "video": {
+    "catHero": {
+      "url": "https://agent8-games.verse8.io/0x0ae533b8084bd01f01df7917c07ddcca1b73653f/chat-uploads/ec80d3dd-6623-4d.mp4",
+      "description": "User-provided cat animation used as the starting hero",
+      "metadata": { "type": "character-video", "source": "user-attachment" }
+    }
+  },
+  "audio": {
+    "chop": {
+      "url": "https://agent8-games.verse8.io/0x0ae533b8084bd01f01df7917c07ddcca1b73653f/mcp-uploads/static-assets/audio-711bb6b3-10fc-4ae1-b7a2-d5af5bd53e8c.ogg",
+      "description": "Cute chopping wood sound effect",
+      "metadata": { "type": "sfx" }
+    },
+    "gameover": {
+      "url": "https://agent8-games.verse8.io/0x0ae533b8084bd01f01df7917c07ddcca1b73653f/mcp-uploads/static-assets/audio-a80e1615-e8c0-4f4a-b2f4-40e739203b51.ogg",
+      "description": "Cute game over sound effect",
+      "metadata": { "type": "sfx" }
+    },
+    "click": {
+      "url": "https://agent8-games.verse8.io/0x0ae533b8084bd01f01df7917c07ddcca1b73653f/mcp-uploads/static-assets/audio-99547e6d-c498-41a3-a4e9-f8acd188ecc3.ogg",
+      "description": "Cute button click pop",
+      "metadata": { "type": "sfx" }
+    },
+    "tick": {
+      "url": "https://agent8-games.verse8.io/0x0ae533b8084bd01f01df7917c07ddcca1b73653f/mcp-uploads/static-assets/audio-e2989014-2535-4f9e-9766-751e9621941d.ogg",
+      "description": "Low-time tick-tock warning",
+      "metadata": { "type": "sfx" }
+    },
+    "razorInTheRain": {
+      "url": "https://agent8-games.verse8.io/0x0ae533b8084bd01f01df7917c07ddcca1b73653f/chat-uploads/07d02542-719e-46.mp3",
+      "description": "Midnight Perimeter background music provided by the user",
+      "metadata": { "type": "background-music", "source": "user-attachment", "format": "mp3" }
+    }
+  }
+}

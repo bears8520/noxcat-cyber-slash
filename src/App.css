@@ -1,0 +1,64 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #020817;
+}
+
+.app {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #020817;
+  font-family: "Audiowide", "Orbitron", system-ui, sans-serif;
+}
+
+.timer-hud {
+  position: fixed;
+  bottom: 56px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  z-index: 50;
+  pointer-events: none;
+}
+
+.timer-label {
+  font-size: 14px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  font-family: "Audiowide", "Orbitron", system-ui, sans-serif;
+  color: #00ffc8;
+  text-shadow:
+    0 0 8px #00ffc8,
+    0 0 14px rgba(0, 255, 200, 0.45);
+}
+
+.timer-track {
+  width: 170px;
+  height: 16px;
+  background: rgba(2, 8, 23, 0.82);
+  border: 2px solid #00ffc8;
+  border-radius: 9999px;
+  padding: 3px;
+  box-shadow: 0 0 12px rgba(0, 255, 200, 0.45);
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.timer-fill {
+  height: 100%;
+  border-radius: 9999px;
+  background: linear-gradient(90deg, #00ffc8 0%, #ff4dff 100%);
+  width: 100%;
+}
